@@ -8,14 +8,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   
   <!-- Header -->
-  <header class="text-center bg-primary text-white py-5">
-    <h1>Samuel Ochoche Peter</h1>
-    <p>Software Engineer & Developer</p>
+  <header class="text-center bg-primary text-white py-5 fixed-top">
+    <h2>Engr. Samuel Ochoche Peter</h2>
+    <h4>Software Engineer & Developer</h4>
   </header>
-
+<br><br><br><br><br><br><br><br>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed-right">
     <a class="navbar-brand" href="#">Portfolio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,46 +25,45 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certifications">Certificates</a></li>
         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a><li>
         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
+  <br><br><br><br><br><br>
 <!-- Sections: About, Skills, Projects, Contact -->
   <!-- Add your section content here using <section id="about"> ... </section> for each -->
 
 <!-- About Section -->
 <section id="about" class="py-5" style="background-color: #e7f3fe;">
    <div class="container">
-     <h2 class="text-center mb-4 font-weight-bold">About Me</h2>
+     <h1 class="text-center mb-4 font-weight-bold text-danger">About Me</h1>
      <div class="row align-items-center">
        <div class="col-md-6">
          <img src="my3.png" alt="Samuel Ochoche Peter" class="img-fluid rounded-circle shadow" style="max-width: 100%; height: auto;">
        </div>
        <div class="col-md-6" style="background-color: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
          <p class="text-justify mb-4">
-           <strong>Hello!</strong> I’m <strong>Samuel Ochoche Peter</strong>, a Computer Science graduate from the <strong>Federal University of Kashere</strong>. I specialize in both front-end and back-end development, with a passion for creating dynamic web applications that provide seamless user experiences.
+           <strong>Hello!</strong> I’m <strong> Engr. Samuel Ochoche Peter</strong>, a Computer Science graduate from <strong>Federal University of Kashere, Gombe State</strong>. I specialize in both Front-End and Back-End Development, with a passion for creating dynamic web applications that provide seamless user experiences.
          </p>
          <p class="text-justify mb-4">
-           Here are a few projects I’ve successfully developed:
+            Few projects executed both for personal growth and for clients:
          </p>
          <ul class="list-group mb-4">
            <li class="list-group-item">
-             <strong>Smartphone Tracking System:</strong> A platform that allows users to report lost smartphones and block their bank accounts in real-time.
+             <strong>Smartphone Tracking System:</strong> 
            </li>
            <li class="list-group-item">
-             <strong>Online Pharmacy:</strong> A web-based system where customers can register, purchase medications, and book appointments with medical professionals.
+             <strong>Online Pharmacy:</strong> 
            </li>
            <li class="list-group-item">
-             <strong>Online Clearance System:</strong> An automated system for student clearance processes, integrating notifications between departments.
-           </li>
-           <li class="list-group-item">
-             <strong>Online Vehicle Management System:</strong> A platform for tracking vehicle availability and maintenance.
+             <strong><a class="nav-link" href="#projects">More.....</a></strong> 
            </li>
          </ul>
-         <p class="text-justify mb-4">
+         <h1 class="text-justify mb-4 text-danger">
            My expertise includes:
-         </p>
+         </h1>
          <ul class="list-unstyled">
            <li><strong>Web Development:</strong> Proficient in HTML, CSS, Bootstrap, PHP, and MySQL, enabling robust full-stack applications.</li>
            <li><strong>Programming:</strong> Skilled in Python, particularly in data analysis and machine learning.</li>
@@ -84,13 +84,14 @@
  <!-- Skills Section -->
  <section id="skills" class="py-5" style="background-color: #f8f9fa;">
    <div class="container">
+      <h1 class="text-center mb-4 font-weight-bold text-danger">My Skills</h1>
      <div class="row align-items-center">
        <div class="col-md-4">
          <img src="my.png" alt="Skills Image" class="img-fluid rounded" style="max-width: 100%; height: 450px;">
        </div>
        <div class="col-md-8">
          <ul class="list-group mb-8">
-            <h2 class="text-center mb-4 font-weight-bold">My Skills</h2>
+            
            <li class="list-group-item d-flex justify-content-between align-items-center" style="margin-bottom: 5px;">
              <strong>Web Development:</strong> 
              <span>HTML, CSS, JavaScript, PHP, Bootstrap</span>
@@ -126,54 +127,227 @@
    </div>
 </section>
 
+<section id="certifications">
+   <div class="container">
+       <h1 class="certificate text-center text-danger">Certifications</h1>
+       <table class="certificate-table table-bordered">
+           <!-- Certificate Item 1 -->
+           <tr>
+               <td>
+                   <img src="./certificates/Desktop Diploma.png" alt="Diploma in Desktop Publishing" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Diploma in Desktop Publishing</h3>
+                   <p>Communication Network Ltd (2019)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/Digital Marketing.png" alt="ICT/Digital and Marketing" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>ICT/Digital and Marketing</h3>
+                   <p>Life Saver Ambassador International (2019)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/JDPC Certificate.png" alt="Certificate of Participation" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Certificate of Participation on INEC Continues Voters Registration</h3>
+                   <p>Justice Development and Peace Committee, JDPC (2022)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/FRONT-END DEVELOPMENT.png" alt="Introduction to Front-End Development" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Introduction to Front-End Development</h3>
+                   <p>Meta, Coursera (2023)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/BACKEND DEVELOPMENT.png" alt="Introduction to Back-End Development" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Introduction to Back-End Development</h3>
+                   <p>Meta, Coursera (2023)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/PYTHON PROGRAMMING.png" alt="Programming with Python" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Programming with Python</h3>
+                   <p>Meta, Coursera (2023)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/SCIENTIFIC COMPUTING WITH PYTHON CERTIFICATE.png" alt="Scientific Computing with Python" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Scientific Computing with Python</h3>
+                   <p>FreeCodeCamp (2023)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/El Academy Python.jpg" alt="Python Programming" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Python Programming</h3>
+                   <p>EL Academy, Abuja (2023)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/MACHINE LEARNING CERTIFICATE.png" alt="Machine Learning with Python" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Machine Learning with Python</h3>
+                   <p>FreeCodeCamp (2023)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/NACOS Training Certificate.png" alt="Instructor on Web Design and Development" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Instructor on Web Design and Development</h3>
+                   <p>Nigeria Association of Computing Students (NACOS), Federal University of Kashere, Gombe State (2024)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/NACOS SOFTWARE DIRECTOR.png" alt="Certificate of Service as Software Director" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Certificate of Service as Software Director</h3>
+                   <p>Nigeria Association of Computing Students (NACOS), Federal University of Kashere, Gombe State (2024)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/HP Certificate on Agile Project.png" alt="Agile Methodologies Development" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Agile Methodologies Development</h3>
+                   <p>HP (2024)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/Seminar Certificate in AI and Machine Learning.jpg" alt="Seminar on Artificial Intelligence" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Seminar on Artificial Intelligence and Machine Learning in our everyday Life</h3>
+                   <p>Nigeria Association of Computing Students (NACOS), Federal University of Kashere, Gombe State (2024)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/Seminar Certificate of Blockchain.jpg" alt="Seminar on Blockchain Technology" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Seminar on Blockchain Technology and Cryptocurrency</h3>
+                   <p>Nigeria Association of Computing Students (NACOS), Federal University of Kashere, Gombe State (2024)</p>
+               </td>
+           </tr>
+           
+           <tr>
+               <td>
+                   <img src="./certificates/Seminar Certificate on CyberScurity.jpg" alt="Seminar on Cybersecurity" onclick="openLightbox(this)">
+               </td>
+               <td>
+                   <h3>Seminar on Cybersecurity</h3>
+                   <p>Nigeria Association of Computing Students (NACOS), Federal University of Kashere, Gombe State (2024)</p>
+               </td>
+           </tr>
+           <tr>
+            <td>
+                <img src="#" alt="Degree Certificate" onclick="openLightbox(this)">
+            </td>
+            <td>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>Federal University of Kashere, Gombe State</p>
+                 <p> Graduation Year: 2024</p>
+            </td>
+        </tr>
+       </table>
+   </div>
+</section>
 
-<!-- Project Section -->
+
+<!-- Lightbox Modal -->
+<div id="lightbox" onclick="closeLightbox()">
+   <span class="close">&times;</span>
+   <img class="lightbox-content" id="lightbox-img">
+</div>
+<br><br><br>
 <!-- Project Section -->
 <section id="projects" class="py-5" style="background: linear-gradient(to right, #e7f3fe, #ffffff);">
    <div class="container">
-     <h2 class="text-center mb-4">My Projects</h2>
+     <h2 class="text-center mb-4 text-danger">Few projects I’ve successfully completed, both for personal growth and for clients:</h2><br><br>
      <div class="row mb-5"> <!-- Increased bottom margin for more space -->
        <div class="col-md-4">
          <img src="track.png" alt="Smartphone Tracking System" class="img-fluid rounded shadow">
        </div>
        <div class="col-md-8">
-         <h5>Smartphone Tracking System</h5>
+         <h5 class="smart text-danger">Smartphone Tracking System</h5>
          <p>Developed a platform for users to report lost smartphones and block their bank accounts in real-time.</p>
        </div>
-     </div>
+     </div><br>
      <div class="row mb-5"> <!-- Increased bottom margin for more space -->
        <div class="col-md-4">
          <img src="pharm.png" alt="Online Pharmacy System" class="img-fluid rounded shadow">
        </div>
        <div class="col-md-8">
-         <h5>Online Pharmacy System</h5>
+         <h5 class="smart text-danger">Online Pharmacy System</h5>
          <p>Designed a web-based platform for customers to register, purchase medications, and book appointments with medical professionals.</p>
        </div>
-     </div>
+     </div><br>
      <div class="row mb-5"> <!-- Increased bottom margin for more space -->
        <div class="col-md-4">
          <img src="clearance.png" alt="Online Clearance System" class="img-fluid rounded shadow">
        </div>
        <div class="col-md-8">
-         <h5>Online Clearance System (FUK Case Study)</h5>
+         <h5 class="smart text-danger">Online Clearance System (FUK Case Study)</h5>
          <p>Created an automated system for student clearance processes, integrating notifications between departments.</p>
        </div>
-     </div>
+     </div><br>
      <div class="row mb-5"> <!-- Increased bottom margin for more space -->
        <div class="col-md-4">
          <img src="car.png" alt="Online Vehicle Management System" class="img-fluid rounded shadow">
        </div>
        <div class="col-md-8">
-         <h5>Online Vehicle Management System</h5>
+         <h5 class="smart text-danger">Online Vehicle Management System</h5>
          <p>Developed a platform to track vehicle availability and maintenance.</p>
        </div>
-     </div>
+     </div> <br>
      <div class="row mb-5"> <!-- Increased bottom margin for more space -->
        <div class="col-md-4">
          <img src="estate.png" alt="Online RealEstate Management System" class="img-fluid rounded shadow">
        </div>
        <div class="col-md-8">
-         <h5>Online RealEstate Management System</h5>
+         <h5 class="smart text-danger">Online RealEstate Management System</h5>
          <p>Developed a platform to buy properties and rent.</p>
        </div>
      </div>
@@ -183,7 +357,7 @@
 <!-- Contact Section -->
 <section id="contact" class="py-5" style="background-color: #e7f3fe;">
    <div class="container">
-     <h2 class="text-center mb-4">Contact Me</h2>
+     <h1 class="text-center mb-4 text-danger">Contact Me</h1>
      <div class="row">
        <!-- Contact Info -->
        <div class="col-md-6 mb-4">
@@ -211,7 +385,19 @@
     <p>&copy; 2024 Engr Samuel Ochoche Peter</p>
   </footer>
 
-
+<script>
+   function openLightbox(img) {
+      const lightbox = document.getElementById("lightbox");
+      const lightboxImg = document.getElementById("lightbox-img");
+      lightboxImg.src = img.src;
+      lightbox.style.display = "block";
+  }
+  
+  function closeLightbox() {
+      document.getElementById("lightbox").style.display = "none";
+  }
+  
+</script>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

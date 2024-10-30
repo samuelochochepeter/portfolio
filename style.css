@@ -1,0 +1,64 @@
+.certificate-table {
+   width: 100%;
+   border-collapse: separate;
+   border-spacing: 0 15px;
+   margin-top: 20px;
+}
+
+.certificate-table td {
+   vertical-align: middle;
+   padding: 10px;
+}
+
+.certificate-table img {
+   width: 200px;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 8px;
+   cursor: pointer;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-table h3 {
+   margin: 0;
+   font-size: 1.1em;
+   font-weight: bold;
+}
+
+.certificate-table p {
+   margin: 5px 0 0;
+   color: #555;
+}
+/* Lightbox container styling */
+.lightbox {
+   display: none;
+   position: fixed;
+   z-index: 1000;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Lightbox content styling */
+.lightbox-content {
+   margin: auto;
+   display: block;
+   max-width: 80%; /* Control the max width */
+   max-height: 80%; /* Control the max height */
+   width: auto;
+   height: auto;
+}
+
+/* Close button styling */
+.close {
+   position: absolute;
+   top: 20px;
+   right: 35px;
+   color: #fff;
+   font-size: 40px;
+   font-weight: bold;
+   cursor: pointer;
+}
